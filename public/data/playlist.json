@@ -1,0 +1,27 @@
+[
+  {
+    "title":"Northern Aurora",
+    "path":"videos/aurora.mp4",
+    "description":"Northern Aurora, clips of the Aurora."
+  },
+{
+  "title":"Starlight Scamper",
+  "path":"videos/StarlightScamper.mp4",
+  "description":"Starlight Scamper: a project built with 'HTML5 and AngularJS."
+},
+{
+"title":"Cow Eating Fence",
+"path":"videos/cow.mp4",
+"description":"Engaging video of a cow eating a fence. Just... captivating, isn't it?"
+},
+{
+"title":"Razorpalm",
+"path":"videos/razorpalm.mp4",
+"description":"After Effects composition. Audio: Shivervein - Razorpalm"
+},
+{
+"title":"Ernesto",
+"path":"videos/ernesto.mp4",
+"description":"Hurricane Enesto - in the Carribean."
+}
+]
