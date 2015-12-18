@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="myApp">
+<html lang="en" ng-app="videoApp">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge">
@@ -10,27 +10,23 @@
     <link rel="stylesheet" href="stylesheets/animate.css">
     <link rel="stylesheet" href="stylesheets/style.css">
 </head>
-<body ng-controller="mainCtrl">
+<body ng-controller="videoCtrl">
 
-{{3+3}}
+<h1>{{titleDisplay}}</h1>
 
 <div class="embed-responsive embed-responsive-16by9">
-    <video id="VideoElement"   width="100%" height="100%" src="videos/StarlightScamper.mp4"></video>
-</div>
-
-<div class="btn-group btn-group-justified" role="group">
-    <a onclick="playVideo()" class="btn btn-default">Play</a>
-    <a onclick="pauseVideo()" class="btn btn-default">Pause</a>
-    <a onclick="stopVideo()" class="btn btn-default">Stop</a>
+    <video id="VideoElement"   width="100%" height="100%" src="{{videoSource}}"></video>
 </div>
 
 
+<h2>{{videoDescription}}</h2>
 
 <script src="../bower_components/angular/angular.min.js"></script>
 <script src="../bower_components/angular-animate/angular-animate.min.js"></script>
 <script src="../bower_components/jquery/dist/jquery.min.js"></script>
 <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-<script src="app.js"></script>
 <script src="javascripts/scripts.js"></script>
+<script src="app.js"></script>
+
 </body>
 </html>

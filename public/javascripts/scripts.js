@@ -1,14 +1,3 @@
-var v = document.getElementById("VideoElement");
-
-function playVideo() {
-    v.play();
-}
-
-function pauseVideo() {
-    v.pause();
-}
-
-function stopVideo() {
-    v.pause();
-    v.currentTime = 0;
-}
+var videoSource = 'videos/StarlightScamper.mp4';
+var titleDisplay = "StarlightScamper";
+var videoDescription = "Starlight Scamper: a project built with HTML5 and AngularJS"
